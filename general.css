@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    --text-color: rgb(40, 40, 40);
+    --link-color: rgb(0, 0, 0);
+}
+
+body {
+    background-image: url(./webp/background.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(7px);
+    font-family: 'Poppins', sans-serif;
+    max-width: 2500px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 450;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.text {
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        backdrop-filter: blur(80px);
+    }
+
+}
