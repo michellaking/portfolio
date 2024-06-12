@@ -379,7 +379,7 @@ hr {
     }
 
     label {
-        display: none;
+        display: block;
         cursor: pointer;
     }
 
